@@ -60,7 +60,7 @@ function Header() {
       e("a", { href: "#services" }, "Events"),
       e("a", { href: "#quote" }, "Quote")
     ),
-    e("a", { className: "phone", href: "tel:+441213890442" }, "0121 389 0442")
+    e("a", { className: "phone", href: "tel:+263772881292" }, "+263 77 288 1292")
   );
 }
 
@@ -194,7 +194,7 @@ function Quote() {
       e("p", null, "Call, email, or send a quote request with guest number, area, and event details."),
       e("img", { className: "quote-photo", src: "assets/photos/chef-plating.jpg", alt: "Chef preparing a plated dish" }),
       e("div", { className: "contact-links" },
-        e("a", { href: "tel:+441213890442" }, "0121 389 0442"),
+        e("a", { href: "tel:+263772881292" }, "+263 77 288 1292"),
         e("a", { href: "mailto:hello@floracatering.co.uk" }, "hello@floracatering.co.uk"),
         e("a", { href: "mailto:sales@floracatering.co.uk" }, "sales@floracatering.co.uk")
       )
